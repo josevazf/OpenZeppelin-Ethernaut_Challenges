@@ -27,8 +27,8 @@ async function main() {
 	console.log("Tx hash:", unlockVault.hash, "\n");
 	const checkVault = await vaultContract.locked();
 	if (checkVault == false)
-		console.log("Vault unlocked! :)");
-	console.log("Could not unlock vault! :(");
+		console.log("Vault unlocked! B)");
+	console.log("Could not unlock vault! x(");
 }
 
 main().catch((error) => {
