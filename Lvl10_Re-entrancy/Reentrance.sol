@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.6.12;
+pragma solidity ^0.7.6;
 
-import '@openzeppelin/contracts@3.4.1/math/SafeMath.sol';
+import '@openzeppelin/contracts/math/SafeMath.sol';
 
 contract Reentrance {
   
